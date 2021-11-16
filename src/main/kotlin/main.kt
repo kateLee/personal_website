@@ -1,7 +1,10 @@
 import androidx.compose.runtime.*
-import org.jetbrains.compose.web.dom.Button
-import org.jetbrains.compose.web.dom.Div
-import org.jetbrains.compose.web.dom.Text
+import org.jetbrains.compose.web.attributes.ATarget
+import org.jetbrains.compose.web.attributes.href
+import org.jetbrains.compose.web.attributes.target
+import org.jetbrains.compose.web.css.*
+import org.jetbrains.compose.web.css.selectors.attr
+import org.jetbrains.compose.web.dom.*
 import org.jetbrains.compose.web.renderComposable
 
 fun main() {
@@ -12,17 +15,24 @@ fun main() {
 
 @Composable
 fun Body() {
-    var counter by remember { mutableStateOf(0) }
-    Div {
-        Text("Clicked: ${counter}")
-    }
-    Button(
-        attrs = {
-            onClick { _ ->
-                counter++
-            }
+    Div( attrs = { style {
+        backgroundColor(Color.black )
+        width(100.vh)
+        height(100.vh)
+    } } ) {
+        Span(
+            attrs = { style {
+                color(Color.palegoldenrod )
+                textAlign("center")
+            }  } // inline style
+        ) {
+            Text("Kate Lee")
         }
-    ) {
-        Text("Click")
+        Br {}
+        A (attrs = {
+            href("https://www.tenlong.com.tw/products/9789864348978")
+            target(ATarget.Blank) } ) {
+            Text("Book")
+        }
     }
 }
