@@ -15,7 +15,6 @@ fun main() {
 @Composable
 fun Body() {
     Div( attrs = { style {
-        backgroundColor(Color.black)
         width(100.vw)
         height(100.vh)
         display(DisplayStyle.Flex)
