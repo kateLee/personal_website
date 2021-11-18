@@ -76,6 +76,9 @@ fun SocialIconLink(name: String, href: String) {
     A(attrs = {
         href(href)
         target(ATarget.Blank)
+        style {
+            color(Color.palegoldenrod)
+        }
     }) {
         SocialIcon(name)
     }
