@@ -71380,6 +71380,7 @@
       SocialIconLink$composable('facebook', 'https://www.facebook.com/yinyinlee.101', $composer_0, 54);
       SocialIconLink$composable('twitter', 'https://twitter.com/YinYin_Kate_Lee', $composer_0, 54);
       SocialIconLink$composable('linkedin', 'https://www.linkedin.com/in/kateleex', $composer_0, 54);
+      SocialIconLink$composable('android', 'javascript:alert("Coming soon!")', $composer_0, 54);
       SocialIconLink$composable('calendar', 'javascript:alert("Coming soon!")', $composer_0, 54);
     } else
       $composer_0.skipToGroupEnd_sv8swh_k$();
@@ -71480,7 +71481,7 @@
   }
   function SocialIcon$composable(name_0, $composer, $changed) {
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(-444510770);
+    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(-444510698);
     sourceInformation($composer_0, 'C(SocialIcon$composable)');
     var $dirty = $changed;
     if (($changed & 14) === 0)
@@ -71541,7 +71542,7 @@
   }
   function SocialIconLink$composable(name_0, href_0, $composer, $changed) {
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(62085279);
+    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(62085351);
     sourceInformation($composer_0, 'C(SocialIconLink$composable)P(1)');
     var $dirty = $changed;
     if (($changed & 14) === 0)
@@ -71593,7 +71594,7 @@
       }
       var tmp_1 = tmp$ret$3;
       var tmp_2 = $composer_0;
-      A$composable(null, tmp_1, composableLambda(tmp_2, -819892505, true, _no_name_provided_$factory_188(name_0, $dirty)), $composer_0, 384, 1);
+      A$composable(null, tmp_1, composableLambda(tmp_2, -819892612, true, _no_name_provided_$factory_188(name_0, $dirty)), $composer_0, 384, 1);
     } else
       $composer_0.skipToGroupEnd_sv8swh_k$();
     var tmp0_safe_receiver = $composer_0.endRestartGroup_0_k$();
@@ -72056,20 +72057,40 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__233($href) {
+  function _no_name_provided__233() {
+  }
+  _no_name_provided__233.prototype.invoke_k9hshx_k$ = function ($this$style) {
+    var tmp$ret$0;
+    $l$block: {
+      var tmp0__get_palegoldenrod__0 = Color_getInstance_0();
+      tmp$ret$0 = Color_1('palegoldenrod');
+      break $l$block;
+    }
+    color($this$style, tmp$ret$0);
+  };
+  _no_name_provided__233.prototype.invoke_20e8_k$ = function (p1) {
+    this.invoke_k9hshx_k$((!(p1 == null) ? isInterface(p1, StyleBuilder) : false) ? p1 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__233.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__234($href) {
     this._$href_4 = $href;
   }
-  _no_name_provided__233.prototype.invoke_m2exwv_k$ = function ($this$A) {
+  _no_name_provided__234.prototype.invoke_m2exwv_k$ = function ($this$A) {
     href($this$A, this._$href_4);
     Unit_getInstance();
     target($this$A, Blank_getInstance());
     Unit_getInstance();
+    $this$A.style_gcyay2_k$(_no_name_provided_$factory_196());
   };
-  _no_name_provided__233.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__234.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_m2exwv_k$(p1 instanceof AttrsBuilder ? p1 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__233.$metadata$ = {
+  _no_name_provided__234.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -72191,7 +72212,7 @@
     };
   }
   function _no_name_provided_$factory_191($href) {
-    var i = new _no_name_provided__233($href);
+    var i = new _no_name_provided__234($href);
     return function (p1) {
       i.invoke_m2exwv_k$(p1);
       return Unit_getInstance();
@@ -72220,6 +72241,13 @@
   }
   function _no_name_provided_$factory_195() {
     var i = new _no_name_provided__231();
+    return function (p1) {
+      i.invoke_k9hshx_k$(p1);
+      return Unit_getInstance();
+    };
+  }
+  function _no_name_provided_$factory_196() {
+    var i = new _no_name_provided__233();
     return function (p1) {
       i.invoke_k9hshx_k$(p1);
       return Unit_getInstance();
