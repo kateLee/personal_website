@@ -23,18 +23,22 @@ fun Body() {
         flexWrap(FlexWrap.Wrap)
     } } ) {
         Div {
-            H1(attrs = {
-                style {
-                    color(Color.palegoldenrod)
-                    display(DisplayStyle.Block)
-                    padding(32.px)
-                    textAlign("center")
-                }
-            }) {
-                Text("Kate Lee")
-            }
+            name()
             links()
         }
+    }
+}
+@Composable
+fun name() {
+    H1(attrs = {
+        style {
+            color(Color.palegoldenrod)
+            display(DisplayStyle.Block)
+            padding(32.px)
+            textAlign("center")
+        }
+    }) {
+        Text("Kate Lee")
     }
 }
 @Composable
