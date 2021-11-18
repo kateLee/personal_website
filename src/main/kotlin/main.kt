@@ -46,22 +46,32 @@ fun links() {
             flexWrap(FlexWrap.Wrap)
         }
     }) {
-        MaterialIconLink("book", "https://www.tenlong.com.tw/products/9789864348978")
-        MaterialIconLink("rss_feed", "https://vocus.cc/user/@kate")
+        SocialIconLink("book", "https://www.tenlong.com.tw/products/9789864348978")
+        SocialIconLink("pencil", "https://vocus.cc/user/@kate")
+        SocialIconLink("github", "https://github.com/kateLee/")
+        SocialIconLink("code", "https://github.com/kateLee/personal_website")
+        SocialIconLink("facebook", "https://www.facebook.com/yinyinlee.101")
+        SocialIconLink("twitter", "https://twitter.com/YinYin_Kate_Lee")
+        SocialIconLink("linkedin", "https://www.linkedin.com/in/kateleex")
+        SocialIconLink("calendar", "javascript:alert(\"Coming soon!\")")
     }
 }
-
 @Composable
-fun MaterialIcon(name: String) {
-    I(attrs = { classes("material-icons") }) { Text(value = name) }
+fun SocialIcon(name: String) {
+    I(attrs = {
+        classes("fa", "fa-$name")
+        style {
+            fontSize(32.px)
+            padding(16.px)
+        }
+    })
 }
 @Composable
-fun MaterialIconLink(name: String, href: String) {
+fun SocialIconLink(name: String, href: String) {
     A(attrs = {
         href(href)
         target(ATarget.Blank)
     }) {
-        MaterialIcon(name)
+        SocialIcon(name)
     }
 }
-
