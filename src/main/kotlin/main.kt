@@ -28,6 +28,7 @@ fun Body() {
                     color(Color.palegoldenrod)
                     display(DisplayStyle.Block)
                     padding(32.px)
+                    textAlign("center")
                 }
             }) {
                 Text("Kate Lee")
