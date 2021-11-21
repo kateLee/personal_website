@@ -56,6 +56,7 @@ fun links() {
         SocialIconLink("facebook", "https://www.facebook.com/yinyinlee.101")
         SocialIconLink("twitter", "https://twitter.com/YinYin_Kate_Lee")
         SocialIconLink("linkedin", "https://www.linkedin.com/in/kateleex")
+        SocialIconLink("stack-overflow", "https://stackoverflow.com/users/5060406/kate-lee")
         SocialIconLink("android", "javascript:alert(\"Coming soon!\")")
         SocialIconLink("calendar", "javascript:alert(\"Coming soon!\")")
     }
