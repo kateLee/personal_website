@@ -33,7 +33,6 @@ fun name() {
     H1(attrs = {
         style {
             color(Color.palegoldenrod)
-            display(DisplayStyle.Block)
             padding(32.px)
             textAlign("center")
         }
@@ -45,7 +44,6 @@ fun name() {
 fun links() {
     Div(attrs = {
         style {
-            display(DisplayStyle.Flex)
             alignContent(AlignContent.Center)
             justifyContent(JustifyContent.Center)
             flexWrap(FlexWrap.Wrap)
