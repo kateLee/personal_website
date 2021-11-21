@@ -18,7 +18,7 @@ fun Body() {
         width(100.vw)
         height(100.vh)
         display(DisplayStyle.Flex)
-        alignContent(AlignContent.Center)
+        alignItems(AlignItems.Center)
         justifyContent(JustifyContent.Center)
         flexWrap(FlexWrap.Wrap)
     } } ) {
@@ -42,13 +42,7 @@ fun name() {
 }
 @Composable
 fun links() {
-    Div(attrs = {
-        style {
-            alignContent(AlignContent.Center)
-            justifyContent(JustifyContent.Center)
-            flexWrap(FlexWrap.Wrap)
-        }
-    }) {
+    Div {
         SocialIconLink("book", "https://www.tenlong.com.tw/products/9789864348978")
         SocialIconLink("pencil", "https://vocus.cc/user/@kate")
         SocialIconLink("github", "https://github.com/kateLee/")
