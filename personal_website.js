@@ -66442,6 +66442,42 @@
   function Companion_38() {
     Companion_instance_37 = this;
   }
+  Companion_38.prototype._get_Normal__0_k$ = function () {
+    var tmp$ret$2;
+    $l$block_1: {
+      var tmp$ret$1;
+      $l$block_0: {
+        var tmp$ret$0;
+        $l$block: {
+          tmp$ret$0 = 'normal';
+          break $l$block;
+        }
+        tmp$ret$1 = tmp$ret$0;
+        break $l$block_0;
+      }
+      tmp$ret$2 = tmp$ret$1;
+      break $l$block_1;
+    }
+    return tmp$ret$2;
+  };
+  Companion_38.prototype._get_Stretch__0_k$ = function () {
+    var tmp$ret$2;
+    $l$block_1: {
+      var tmp$ret$1;
+      $l$block_0: {
+        var tmp$ret$0;
+        $l$block: {
+          tmp$ret$0 = 'stretch';
+          break $l$block;
+        }
+        tmp$ret$1 = tmp$ret$0;
+        break $l$block_0;
+      }
+      tmp$ret$2 = tmp$ret$1;
+      break $l$block_1;
+    }
+    return tmp$ret$2;
+  };
   Companion_38.prototype._get_Center__0_k$ = function () {
     var tmp$ret$2;
     $l$block_1: {
@@ -66586,78 +66622,6 @@
     }
     return tmp$ret$2;
   };
-  Companion_38.prototype._get_SpaceBetween__0_k$ = function () {
-    var tmp$ret$2;
-    $l$block_1: {
-      var tmp$ret$1;
-      $l$block_0: {
-        var tmp$ret$0;
-        $l$block: {
-          tmp$ret$0 = 'space-between';
-          break $l$block;
-        }
-        tmp$ret$1 = tmp$ret$0;
-        break $l$block_0;
-      }
-      tmp$ret$2 = tmp$ret$1;
-      break $l$block_1;
-    }
-    return tmp$ret$2;
-  };
-  Companion_38.prototype._get_SpaceAround__0_k$ = function () {
-    var tmp$ret$2;
-    $l$block_1: {
-      var tmp$ret$1;
-      $l$block_0: {
-        var tmp$ret$0;
-        $l$block: {
-          tmp$ret$0 = 'space-around';
-          break $l$block;
-        }
-        tmp$ret$1 = tmp$ret$0;
-        break $l$block_0;
-      }
-      tmp$ret$2 = tmp$ret$1;
-      break $l$block_1;
-    }
-    return tmp$ret$2;
-  };
-  Companion_38.prototype._get_SpaceEvenly__0_k$ = function () {
-    var tmp$ret$2;
-    $l$block_1: {
-      var tmp$ret$1;
-      $l$block_0: {
-        var tmp$ret$0;
-        $l$block: {
-          tmp$ret$0 = 'space-evenly';
-          break $l$block;
-        }
-        tmp$ret$1 = tmp$ret$0;
-        break $l$block_0;
-      }
-      tmp$ret$2 = tmp$ret$1;
-      break $l$block_1;
-    }
-    return tmp$ret$2;
-  };
-  Companion_38.prototype._get_Stretch__0_k$ = function () {
-    var tmp$ret$2;
-    $l$block_1: {
-      var tmp$ret$1;
-      $l$block_0: {
-        var tmp$ret$0;
-        $l$block: {
-          tmp$ret$0 = 'stretch';
-          break $l$block;
-        }
-        tmp$ret$1 = tmp$ret$0;
-        break $l$block_0;
-      }
-      tmp$ret$2 = tmp$ret$1;
-      break $l$block_1;
-    }
-    return tmp$ret$2;
-  };
   Companion_38.prototype._get_Inherit__0_k$ = function () {
     var tmp$ret$2;
     $l$block_1: {
@@ -66723,11 +66687,11 @@
       new Companion_38();
     return Companion_instance_37;
   }
-  function AlignContent() {
+  function AlignItems() {
     Companion_getInstance_37();
   }
-  AlignContent.$metadata$ = {
-    simpleName: 'AlignContent',
+  AlignItems.$metadata$ = {
+    simpleName: 'AlignItems',
     kind: 'interface',
     interfaces: [StylePropertyEnum]
   };
@@ -67168,7 +67132,7 @@
     }
     return tmp$ret$1;
   }
-  function AlignContent_0(value) {
+  function AlignItems_0(value) {
     var tmp$ret$1;
     $l$block_0: {
       var tmp$ret$0;
@@ -69179,14 +69143,14 @@
   function color(_this_, value) {
     _this_.property_t4iuxv_k$('color', value);
   }
-  function alignContent(_this_, alignContent_0) {
+  function alignItems(_this_, alignItems_0) {
     var tmp$ret$2;
     $l$block_1: {
       var tmp$ret$1;
       $l$block_0: {
         var tmp$ret$0;
         $l$block: {
-          tmp$ret$0 = alignContent_0;
+          tmp$ret$0 = alignItems_0;
           break $l$block;
         }
         tmp$ret$1 = tmp$ret$0;
@@ -69195,7 +69159,7 @@
       tmp$ret$2 = tmp$ret$1;
       break $l$block_1;
     }
-    _this_.property_wbz76b_k$('align-content', tmp$ret$2);
+    _this_.property_wbz76b_k$('align-items', tmp$ret$2);
   }
   function justifyContent(_this_, justifyContent_0) {
     var tmp$ret$2;
@@ -71401,13 +71365,13 @@
     var tmp = this;
     tmp._lambda_1_1 = composableLambdaInstance(-985534403, false, _no_name_provided_$factory_174());
     var tmp_0 = this;
-    tmp_0._lambda_2_0 = composableLambdaInstance(-985533457, false, _no_name_provided_$factory_175());
+    tmp_0._lambda_2_0 = composableLambdaInstance(-985533461, false, _no_name_provided_$factory_175());
     var tmp_1 = this;
-    tmp_1._lambda_3 = composableLambdaInstance(-985533475, false, _no_name_provided_$factory_176());
+    tmp_1._lambda_3 = composableLambdaInstance(-985533479, false, _no_name_provided_$factory_176());
     var tmp_2 = this;
-    tmp_2._lambda_4 = composableLambdaInstance(-985533737, false, _no_name_provided_$factory_177());
+    tmp_2._lambda_4 = composableLambdaInstance(-985533741, false, _no_name_provided_$factory_177());
     var tmp_3 = this;
-    tmp_3._lambda_5 = composableLambdaInstance(-985532981, false, _no_name_provided_$factory_178());
+    tmp_3._lambda_5 = composableLambdaInstance(-985533802, false, _no_name_provided_$factory_178());
   }
   ComposableSingletons$MainKt.prototype._get_lambda_1__0_k$ = function () {
     return this._lambda_1_1;
@@ -71452,7 +71416,7 @@
   }
   function name$composable($composer, $changed) {
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(544370413);
+    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(544370409);
     sourceInformation($composer_0, 'C(name$composable)');
     if (!($changed === 0) ? true : !$composer_0._get_skipping__0_k$()) {
       H1$composable(_no_name_provided_$factory_181(), ComposableSingletons$MainKt_getInstance()._lambda_4, $composer_0, 54, 0);
@@ -71467,22 +71431,22 @@
   }
   function links$composable($composer, $changed) {
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(-1747587093);
+    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(-1747587097);
     sourceInformation($composer_0, 'C(links$composable)');
     if (!($changed === 0) ? true : !$composer_0._get_skipping__0_k$()) {
-      Div$composable(_no_name_provided_$factory_183(), ComposableSingletons$MainKt_getInstance()._lambda_5, $composer_0, 54, 0);
+      Div$composable(null, ComposableSingletons$MainKt_getInstance()._lambda_5, $composer_0, 48, 1);
     } else
       $composer_0.skipToGroupEnd_sv8swh_k$();
     var tmp0_safe_receiver = $composer_0.endRestartGroup_0_k$();
     if (tmp0_safe_receiver === null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_184($changed));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_183($changed));
     }
   }
   function SocialIcon$composable(name_0, $composer, $changed) {
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(-444510684);
+    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(-444510863);
     sourceInformation($composer_0, 'C(SocialIcon$composable)');
     var $dirty = $changed;
     if (($changed & 14) === 0)
@@ -71490,7 +71454,7 @@
     if (!(($dirty & 11 ^ 2) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
       var tmp$ret$3;
       $l$block_2: {
-        var tmp0_remember$composable_0 = _no_name_provided_$factory_185(name_0);
+        var tmp0_remember$composable_0 = _no_name_provided_$factory_184(name_0);
         var tmp1_remember$composable_0 = $composer_0;
         var tmp2_remember$composable_0 = 14 & $dirty;
         var $composer_1 = tmp1_remember$composable_0;
@@ -71538,12 +71502,12 @@
     if (tmp0_safe_receiver === null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_186(name_0, $changed));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_185(name_0, $changed));
     }
   }
   function SocialIconLink$composable(name_0, href_0, $composer, $changed) {
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(62085365);
+    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(62085186);
     sourceInformation($composer_0, 'C(SocialIconLink$composable)P(1)');
     var $dirty = $changed;
     if (($changed & 14) === 0)
@@ -71553,7 +71517,7 @@
     if (!(($dirty & 91 ^ 18) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
       var tmp$ret$3;
       $l$block_2: {
-        var tmp0_remember$composable_0 = _no_name_provided_$factory_187(href_0);
+        var tmp0_remember$composable_0 = _no_name_provided_$factory_186(href_0);
         var tmp1_remember$composable_0 = $composer_0;
         var tmp2_remember$composable_0 = 14 & $dirty >> 3;
         var $composer_1 = tmp1_remember$composable_0;
@@ -71595,14 +71559,14 @@
       }
       var tmp_1 = tmp$ret$3;
       var tmp_2 = $composer_0;
-      A$composable(null, tmp_1, composableLambda(tmp_2, -819892338, true, _no_name_provided_$factory_188(name_0, $dirty)), $composer_0, 384, 1);
+      A$composable(null, tmp_1, composableLambda(tmp_2, -819892541, true, _no_name_provided_$factory_187(name_0, $dirty)), $composer_0, 384, 1);
     } else
       $composer_0.skipToGroupEnd_sv8swh_k$();
     var tmp0_safe_receiver = $composer_0.endRestartGroup_0_k$();
     if (tmp0_safe_receiver === null)
       null;
     else {
-      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_189(name_0, href_0, $changed));
+      tmp0_safe_receiver.updateScope_wte2v3_k$(_no_name_provided_$factory_188(name_0, href_0, $changed));
     }
   }
   function Body$composable$lambda($$changed, $composer, $force) {
@@ -71615,13 +71579,13 @@
     return links$composable($composer, $$changed | 1);
   }
   function SocialIcon$composable$lambda($name) {
-    return _no_name_provided_$factory_190($name);
+    return _no_name_provided_$factory_189($name);
   }
   function SocialIcon$composable$lambda_0($name, $$changed, $composer, $force) {
     return SocialIcon$composable($name, $composer, $$changed | 1);
   }
   function SocialIconLink$composable$lambda($href) {
-    return _no_name_provided_$factory_191($href);
+    return _no_name_provided_$factory_190($href);
   }
   function SocialIconLink$composable$lambda_0($name, $href, $$changed, $composer, $force) {
     return SocialIconLink$composable($name, $href, $composer, $$changed | 1);
@@ -71674,7 +71638,7 @@
       tmp$ret$7 = tmp$ret$6;
       break $l$block_6;
     }
-    alignContent($this$style, tmp$ret$7);
+    alignItems($this$style, tmp$ret$7);
     var tmp$ret$11;
     $l$block_10: {
       var tmp2__get_Center__0 = Companion_getInstance_38();
@@ -71731,7 +71695,7 @@
   function _no_name_provided__218() {
   }
   _no_name_provided__218.prototype.invoke_4sn14n_k$ = function ($this$Div) {
-    $this$Div.style_gcyay2_k$(_no_name_provided_$factory_192());
+    $this$Div.style_gcyay2_k$(_no_name_provided_$factory_191());
   };
   _no_name_provided__218.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_4sn14n_k$(p1 instanceof AttrsBuilder ? p1 : THROW_CCE());
@@ -71780,7 +71744,7 @@
   function _no_name_provided__221() {
   }
   _no_name_provided__221.prototype.invoke_52dv8o_k$ = function ($this$H1) {
-    $this$H1.style_gcyay2_k$(_no_name_provided_$factory_193());
+    $this$H1.style_gcyay2_k$(_no_name_provided_$factory_192());
   };
   _no_name_provided__221.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_52dv8o_k$(p1 instanceof AttrsBuilder ? p1 : THROW_CCE());
@@ -71805,102 +71769,37 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__223() {
+  function _no_name_provided__223($$changed) {
+    this._$$changed_7 = $$changed;
   }
-  _no_name_provided__223.prototype.invoke_k9hshx_k$ = function ($this$style) {
-    var tmp$ret$3;
-    $l$block_2: {
-      var tmp0__get_Center__0 = Companion_getInstance_37();
-      var tmp$ret$2;
-      $l$block_1: {
-        var tmp$ret$1;
-        $l$block_0: {
-          var tmp$ret$0;
-          $l$block: {
-            tmp$ret$0 = 'center';
-            break $l$block;
-          }
-          tmp$ret$1 = tmp$ret$0;
-          break $l$block_0;
-        }
-        tmp$ret$2 = tmp$ret$1;
-        break $l$block_1;
-      }
-      tmp$ret$3 = tmp$ret$2;
-      break $l$block_2;
-    }
-    alignContent($this$style, tmp$ret$3);
-    var tmp$ret$7;
-    $l$block_6: {
-      var tmp1__get_Center__0 = Companion_getInstance_38();
-      var tmp$ret$6;
-      $l$block_5: {
-        var tmp$ret$5;
-        $l$block_4: {
-          var tmp$ret$4;
-          $l$block_3: {
-            tmp$ret$4 = 'center';
-            break $l$block_3;
-          }
-          tmp$ret$5 = tmp$ret$4;
-          break $l$block_4;
-        }
-        tmp$ret$6 = tmp$ret$5;
-        break $l$block_5;
-      }
-      tmp$ret$7 = tmp$ret$6;
-      break $l$block_6;
-    }
-    justifyContent($this$style, tmp$ret$7);
-    var tmp$ret$11;
-    $l$block_10: {
-      var tmp2__get_Wrap__0 = Companion_getInstance_39();
-      var tmp$ret$10;
-      $l$block_9: {
-        var tmp$ret$9;
-        $l$block_8: {
-          var tmp$ret$8;
-          $l$block_7: {
-            tmp$ret$8 = 'wrap';
-            break $l$block_7;
-          }
-          tmp$ret$9 = tmp$ret$8;
-          break $l$block_8;
-        }
-        tmp$ret$10 = tmp$ret$9;
-        break $l$block_9;
-      }
-      tmp$ret$11 = tmp$ret$10;
-      break $l$block_10;
-    }
-    flexWrap($this$style, tmp$ret$11);
+  _no_name_provided__223.prototype.invoke_xtxync_k$ = function (p0, p1) {
+    return links$composable$lambda(this._$$changed_7, p0, p1);
   };
-  _no_name_provided__223.prototype.invoke_20e8_k$ = function (p1) {
-    this.invoke_k9hshx_k$((!(p1 == null) ? isInterface(p1, StyleBuilder) : false) ? p1 : THROW_CCE());
+  _no_name_provided__223.prototype.invoke_osx4an_k$ = function (p1, p2) {
+    var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
+    this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
     return Unit_getInstance();
   };
   _no_name_provided__223.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__224() {
+  function _no_name_provided__224($name) {
+    this._$name = $name;
   }
-  _no_name_provided__224.prototype.invoke_4sn14n_k$ = function ($this$Div) {
-    $this$Div.style_gcyay2_k$(_no_name_provided_$factory_194());
-  };
-  _no_name_provided__224.prototype.invoke_20e8_k$ = function (p1) {
-    this.invoke_4sn14n_k$(p1 instanceof AttrsBuilder ? p1 : THROW_CCE());
-    return Unit_getInstance();
+  _no_name_provided__224.prototype.invoke_0_k$ = function () {
+    return SocialIcon$composable$lambda(this._$name);
   };
   _no_name_provided__224.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__225($$changed) {
-    this._$$changed_7 = $$changed;
+  function _no_name_provided__225($name, $$changed) {
+    this._$name_0 = $name;
+    this._$$changed_8 = $$changed;
   }
   _no_name_provided__225.prototype.invoke_xtxync_k$ = function (p0, p1) {
-    return links$composable$lambda(this._$$changed_7, p0, p1);
+    return SocialIcon$composable$lambda_0(this._$name_0, this._$$changed_8, p0, p1);
   };
   _no_name_provided__225.prototype.invoke_osx4an_k$ = function (p1, p2) {
     var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
@@ -71911,74 +71810,77 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__226($name) {
-    this._$name = $name;
+  function _no_name_provided__226($href) {
+    this._$href_2 = $href;
   }
   _no_name_provided__226.prototype.invoke_0_k$ = function () {
-    return SocialIcon$composable$lambda(this._$name);
+    return SocialIconLink$composable$lambda(this._$href_2);
   };
   _no_name_provided__226.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__227($name, $$changed) {
-    this._$name_0 = $name;
-    this._$$changed_8 = $$changed;
-  }
-  _no_name_provided__227.prototype.invoke_xtxync_k$ = function (p0, p1) {
-    return SocialIcon$composable$lambda_0(this._$name_0, this._$$changed_8, p0, p1);
-  };
-  _no_name_provided__227.prototype.invoke_osx4an_k$ = function (p1, p2) {
-    var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
-    this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__227.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__228($href) {
-    this._$href_2 = $href;
-  }
-  _no_name_provided__228.prototype.invoke_0_k$ = function () {
-    return SocialIconLink$composable$lambda(this._$href_2);
-  };
-  _no_name_provided__228.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__229($name, $$dirty) {
+  function _no_name_provided__227($name, $$dirty) {
     this._$name_1 = $name;
     this._$$dirty = $$dirty;
   }
-  _no_name_provided__229.prototype.invoke_sv8dqv_k$ = function ($this$A, $composer, $changed) {
+  _no_name_provided__227.prototype.invoke_sv8dqv_k$ = function ($this$A, $composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 81 ^ 16) === 0) ? true : !$composer_0._get_skipping__0_k$()) {
       SocialIcon$composable(this._$name_1, $composer_0, 14 & this._$$dirty);
     } else
       $composer_0.skipToGroupEnd_sv8swh_k$();
   };
-  _no_name_provided__229.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
+  _no_name_provided__227.prototype.invoke_ifn5k1_k$ = function (p1, p2, p3) {
     var tmp = (!(p1 == null) ? isInterface(p1, ElementScope) : false) ? p1 : THROW_CCE();
     var tmp_0 = (p2 == null ? true : isInterface(p2, Composer)) ? p2 : THROW_CCE();
     this.invoke_sv8dqv_k$(tmp, tmp_0, (!(p3 == null) ? typeof p3 === 'number' : false) ? p3 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__227.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__228($name, $href, $$changed) {
+    this._$name_2 = $name;
+    this._$href_3 = $href;
+    this._$$changed_9 = $$changed;
+  }
+  _no_name_provided__228.prototype.invoke_xtxync_k$ = function (p0, p1) {
+    return SocialIconLink$composable$lambda_0(this._$name_2, this._$href_3, this._$$changed_9, p0, p1);
+  };
+  _no_name_provided__228.prototype.invoke_osx4an_k$ = function (p1, p2) {
+    var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
+    this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
+    return Unit_getInstance();
+  };
+  _no_name_provided__228.$metadata$ = {
+    kind: 'class',
+    interfaces: []
+  };
+  function _no_name_provided__229() {
+  }
+  _no_name_provided__229.prototype.invoke_k9hshx_k$ = function ($this$style) {
+    fontSize($this$style, _get_px_(32));
+    padding($this$style, [_get_px_(16)]);
+  };
+  _no_name_provided__229.prototype.invoke_20e8_k$ = function (p1) {
+    this.invoke_k9hshx_k$((!(p1 == null) ? isInterface(p1, StyleBuilder) : false) ? p1 : THROW_CCE());
     return Unit_getInstance();
   };
   _no_name_provided__229.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__230($name, $href, $$changed) {
-    this._$name_2 = $name;
-    this._$href_3 = $href;
-    this._$$changed_9 = $$changed;
+  function _no_name_provided__230($name) {
+    this._$name_3 = $name;
   }
-  _no_name_provided__230.prototype.invoke_xtxync_k$ = function (p0, p1) {
-    return SocialIconLink$composable$lambda_0(this._$name_2, this._$href_3, this._$$changed_9, p0, p1);
+  _no_name_provided__230.prototype.invoke_ksxww4_k$ = function ($this$I) {
+    $this$I.classes_70f81e_k$(['fa', '' + 'fa-' + this._$name_3]);
+    $this$I.style_gcyay2_k$(_no_name_provided_$factory_193());
   };
-  _no_name_provided__230.prototype.invoke_osx4an_k$ = function (p1, p2) {
-    var tmp = (!(p1 == null) ? isInterface(p1, Composer) : false) ? p1 : THROW_CCE();
-    this.invoke_xtxync_k$(tmp, (!(p2 == null) ? typeof p2 === 'number' : false) ? p2 : THROW_CCE());
+  _no_name_provided__230.prototype.invoke_20e8_k$ = function (p1) {
+    this.invoke_ksxww4_k$(p1 instanceof AttrsBuilder ? p1 : THROW_CCE());
     return Unit_getInstance();
   };
   _no_name_provided__230.$metadata$ = {
@@ -71988,8 +71890,13 @@
   function _no_name_provided__231() {
   }
   _no_name_provided__231.prototype.invoke_k9hshx_k$ = function ($this$style) {
-    fontSize($this$style, _get_px_(32));
-    padding($this$style, [_get_px_(16)]);
+    var tmp$ret$0;
+    $l$block: {
+      var tmp0__get_palegoldenrod__0 = Color_getInstance_0();
+      tmp$ret$0 = Color_1('palegoldenrod');
+      break $l$block;
+    }
+    color($this$style, tmp$ret$0);
   };
   _no_name_provided__231.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_k9hshx_k$((!(p1 == null) ? isInterface(p1, StyleBuilder) : false) ? p1 : THROW_CCE());
@@ -71999,55 +71906,21 @@
     kind: 'class',
     interfaces: []
   };
-  function _no_name_provided__232($name) {
-    this._$name_3 = $name;
-  }
-  _no_name_provided__232.prototype.invoke_ksxww4_k$ = function ($this$I) {
-    $this$I.classes_70f81e_k$(['fa', '' + 'fa-' + this._$name_3]);
-    $this$I.style_gcyay2_k$(_no_name_provided_$factory_195());
-  };
-  _no_name_provided__232.prototype.invoke_20e8_k$ = function (p1) {
-    this.invoke_ksxww4_k$(p1 instanceof AttrsBuilder ? p1 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__232.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__233() {
-  }
-  _no_name_provided__233.prototype.invoke_k9hshx_k$ = function ($this$style) {
-    var tmp$ret$0;
-    $l$block: {
-      var tmp0__get_palegoldenrod__0 = Color_getInstance_0();
-      tmp$ret$0 = Color_1('palegoldenrod');
-      break $l$block;
-    }
-    color($this$style, tmp$ret$0);
-  };
-  _no_name_provided__233.prototype.invoke_20e8_k$ = function (p1) {
-    this.invoke_k9hshx_k$((!(p1 == null) ? isInterface(p1, StyleBuilder) : false) ? p1 : THROW_CCE());
-    return Unit_getInstance();
-  };
-  _no_name_provided__233.$metadata$ = {
-    kind: 'class',
-    interfaces: []
-  };
-  function _no_name_provided__234($href) {
+  function _no_name_provided__232($href) {
     this._$href_4 = $href;
   }
-  _no_name_provided__234.prototype.invoke_m2exwv_k$ = function ($this$A) {
+  _no_name_provided__232.prototype.invoke_m2exwv_k$ = function ($this$A) {
     href($this$A, this._$href_4);
     Unit_getInstance();
     target($this$A, Blank_getInstance());
     Unit_getInstance();
-    $this$A.style_gcyay2_k$(_no_name_provided_$factory_196());
+    $this$A.style_gcyay2_k$(_no_name_provided_$factory_194());
   };
-  _no_name_provided__234.prototype.invoke_20e8_k$ = function (p1) {
+  _no_name_provided__232.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_m2exwv_k$(p1 instanceof AttrsBuilder ? p1 : THROW_CCE());
     return Unit_getInstance();
   };
-  _no_name_provided__234.$metadata$ = {
+  _no_name_provided__232.$metadata$ = {
     kind: 'class',
     interfaces: []
   };
@@ -72114,97 +71987,83 @@
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_183() {
-    var i = new _no_name_provided__224();
-    return function (p1) {
-      i.invoke_4sn14n_k$(p1);
-      return Unit_getInstance();
-    };
-  }
-  function _no_name_provided_$factory_184($$changed) {
-    var i = new _no_name_provided__225($$changed);
+  function _no_name_provided_$factory_183($$changed) {
+    var i = new _no_name_provided__223($$changed);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_185($name) {
-    var i = new _no_name_provided__226($name);
+  function _no_name_provided_$factory_184($name) {
+    var i = new _no_name_provided__224($name);
     return function () {
       return i.invoke_0_k$();
     };
   }
-  function _no_name_provided_$factory_186($name, $$changed) {
-    var i = new _no_name_provided__227($name, $$changed);
+  function _no_name_provided_$factory_185($name, $$changed) {
+    var i = new _no_name_provided__225($name, $$changed);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_187($href) {
-    var i = new _no_name_provided__228($href);
+  function _no_name_provided_$factory_186($href) {
+    var i = new _no_name_provided__226($href);
     return function () {
       return i.invoke_0_k$();
     };
   }
-  function _no_name_provided_$factory_188($name, $$dirty) {
-    var i = new _no_name_provided__229($name, $$dirty);
+  function _no_name_provided_$factory_187($name, $$dirty) {
+    var i = new _no_name_provided__227($name, $$dirty);
     return function (p1, p2, p3) {
       i.invoke_sv8dqv_k$(p1, p2, p3);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_189($name, $href, $$changed) {
-    var i = new _no_name_provided__230($name, $href, $$changed);
+  function _no_name_provided_$factory_188($name, $href, $$changed) {
+    var i = new _no_name_provided__228($name, $href, $$changed);
     return function (p1, p2) {
       i.invoke_xtxync_k$(p1, p2);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_190($name) {
-    var i = new _no_name_provided__232($name);
+  function _no_name_provided_$factory_189($name) {
+    var i = new _no_name_provided__230($name);
     return function (p1) {
       i.invoke_ksxww4_k$(p1);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_191($href) {
-    var i = new _no_name_provided__234($href);
+  function _no_name_provided_$factory_190($href) {
+    var i = new _no_name_provided__232($href);
     return function (p1) {
       i.invoke_m2exwv_k$(p1);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_192() {
+  function _no_name_provided_$factory_191() {
     var i = new _no_name_provided__217();
     return function (p1) {
       i.invoke_k9hshx_k$(p1);
       return Unit_getInstance();
     };
   }
-  function _no_name_provided_$factory_193() {
+  function _no_name_provided_$factory_192() {
     var i = new _no_name_provided__220();
     return function (p1) {
       i.invoke_k9hshx_k$(p1);
       return Unit_getInstance();
     };
   }
+  function _no_name_provided_$factory_193() {
+    var i = new _no_name_provided__229();
+    return function (p1) {
+      i.invoke_k9hshx_k$(p1);
+      return Unit_getInstance();
+    };
+  }
   function _no_name_provided_$factory_194() {
-    var i = new _no_name_provided__223();
-    return function (p1) {
-      i.invoke_k9hshx_k$(p1);
-      return Unit_getInstance();
-    };
-  }
-  function _no_name_provided_$factory_195() {
     var i = new _no_name_provided__231();
-    return function (p1) {
-      i.invoke_k9hshx_k$(p1);
-      return Unit_getInstance();
-    };
-  }
-  function _no_name_provided_$factory_196() {
-    var i = new _no_name_provided__233();
     return function (p1) {
       i.invoke_k9hshx_k$(p1);
       return Unit_getInstance();
