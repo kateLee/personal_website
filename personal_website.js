@@ -71380,6 +71380,7 @@
       SocialIconLink$composable('facebook', 'https://www.facebook.com/yinyinlee.101', $composer_0, 54);
       SocialIconLink$composable('twitter', 'https://twitter.com/YinYin_Kate_Lee', $composer_0, 54);
       SocialIconLink$composable('linkedin', 'https://www.linkedin.com/in/kateleex', $composer_0, 54);
+      SocialIconLink$composable('stack-overflow', 'https://stackoverflow.com/users/5060406/kate-lee', $composer_0, 54);
       SocialIconLink$composable('android', 'javascript:alert("Coming soon!")', $composer_0, 54);
       SocialIconLink$composable('calendar', 'javascript:alert("Coming soon!")', $composer_0, 54);
     } else
@@ -71404,9 +71405,9 @@
     var tmp_1 = this;
     tmp_1._lambda_3 = composableLambdaInstance(-985533475, false, _no_name_provided_$factory_176());
     var tmp_2 = this;
-    tmp_2._lambda_4 = composableLambdaInstance(-985533697, false, _no_name_provided_$factory_177());
+    tmp_2._lambda_4 = composableLambdaInstance(-985533737, false, _no_name_provided_$factory_177());
     var tmp_3 = this;
-    tmp_3._lambda_5 = composableLambdaInstance(-985533036, false, _no_name_provided_$factory_178());
+    tmp_3._lambda_5 = composableLambdaInstance(-985532981, false, _no_name_provided_$factory_178());
   }
   ComposableSingletons$MainKt.prototype._get_lambda_1__0_k$ = function () {
     return this._lambda_1_1;
@@ -71466,7 +71467,7 @@
   }
   function links$composable($composer, $changed) {
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(-1747587053);
+    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(-1747587093);
     sourceInformation($composer_0, 'C(links$composable)');
     if (!($changed === 0) ? true : !$composer_0._get_skipping__0_k$()) {
       Div$composable(_no_name_provided_$factory_183(), ComposableSingletons$MainKt_getInstance()._lambda_5, $composer_0, 54, 0);
@@ -71481,7 +71482,7 @@
   }
   function SocialIcon$composable(name_0, $composer, $changed) {
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(-444510698);
+    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(-444510684);
     sourceInformation($composer_0, 'C(SocialIcon$composable)');
     var $dirty = $changed;
     if (($changed & 14) === 0)
@@ -71542,7 +71543,7 @@
   }
   function SocialIconLink$composable(name_0, href_0, $composer, $changed) {
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(62085351);
+    $composer_0 = $composer_0.startRestartGroup_ha5a7z_k$(62085365);
     sourceInformation($composer_0, 'C(SocialIconLink$composable)P(1)');
     var $dirty = $changed;
     if (($changed & 14) === 0)
@@ -71594,7 +71595,7 @@
       }
       var tmp_1 = tmp$ret$3;
       var tmp_2 = $composer_0;
-      A$composable(null, tmp_1, composableLambda(tmp_2, -819892612, true, _no_name_provided_$factory_188(name_0, $dirty)), $composer_0, 384, 1);
+      A$composable(null, tmp_1, composableLambda(tmp_2, -819892338, true, _no_name_provided_$factory_188(name_0, $dirty)), $composer_0, 384, 1);
     } else
       $composer_0.skipToGroupEnd_sv8swh_k$();
     var tmp0_safe_receiver = $composer_0.endRestartGroup_0_k$();
@@ -71765,28 +71766,6 @@
       break $l$block;
     }
     color($this$style, tmp$ret$0);
-    var tmp$ret$4;
-    $l$block_3: {
-      var tmp1__get_Block__0 = Companion_getInstance_36();
-      var tmp$ret$3;
-      $l$block_2: {
-        var tmp$ret$2;
-        $l$block_1: {
-          var tmp$ret$1;
-          $l$block_0: {
-            tmp$ret$1 = 'block';
-            break $l$block_0;
-          }
-          tmp$ret$2 = tmp$ret$1;
-          break $l$block_1;
-        }
-        tmp$ret$3 = tmp$ret$2;
-        break $l$block_2;
-      }
-      tmp$ret$4 = tmp$ret$3;
-      break $l$block_3;
-    }
-    display($this$style, tmp$ret$4);
     padding($this$style, [_get_px_(32)]);
     textAlign($this$style, 'center');
   };
@@ -71831,14 +71810,14 @@
   _no_name_provided__223.prototype.invoke_k9hshx_k$ = function ($this$style) {
     var tmp$ret$3;
     $l$block_2: {
-      var tmp0__get_Flex__0 = Companion_getInstance_36();
+      var tmp0__get_Center__0 = Companion_getInstance_37();
       var tmp$ret$2;
       $l$block_1: {
         var tmp$ret$1;
         $l$block_0: {
           var tmp$ret$0;
           $l$block: {
-            tmp$ret$0 = 'flex';
+            tmp$ret$0 = 'center';
             break $l$block;
           }
           tmp$ret$1 = tmp$ret$0;
@@ -71850,10 +71829,10 @@
       tmp$ret$3 = tmp$ret$2;
       break $l$block_2;
     }
-    display($this$style, tmp$ret$3);
+    alignContent($this$style, tmp$ret$3);
     var tmp$ret$7;
     $l$block_6: {
-      var tmp1__get_Center__0 = Companion_getInstance_37();
+      var tmp1__get_Center__0 = Companion_getInstance_38();
       var tmp$ret$6;
       $l$block_5: {
         var tmp$ret$5;
@@ -71872,17 +71851,17 @@
       tmp$ret$7 = tmp$ret$6;
       break $l$block_6;
     }
-    alignContent($this$style, tmp$ret$7);
+    justifyContent($this$style, tmp$ret$7);
     var tmp$ret$11;
     $l$block_10: {
-      var tmp2__get_Center__0 = Companion_getInstance_38();
+      var tmp2__get_Wrap__0 = Companion_getInstance_39();
       var tmp$ret$10;
       $l$block_9: {
         var tmp$ret$9;
         $l$block_8: {
           var tmp$ret$8;
           $l$block_7: {
-            tmp$ret$8 = 'center';
+            tmp$ret$8 = 'wrap';
             break $l$block_7;
           }
           tmp$ret$9 = tmp$ret$8;
@@ -71894,29 +71873,7 @@
       tmp$ret$11 = tmp$ret$10;
       break $l$block_10;
     }
-    justifyContent($this$style, tmp$ret$11);
-    var tmp$ret$15;
-    $l$block_14: {
-      var tmp3__get_Wrap__0 = Companion_getInstance_39();
-      var tmp$ret$14;
-      $l$block_13: {
-        var tmp$ret$13;
-        $l$block_12: {
-          var tmp$ret$12;
-          $l$block_11: {
-            tmp$ret$12 = 'wrap';
-            break $l$block_11;
-          }
-          tmp$ret$13 = tmp$ret$12;
-          break $l$block_12;
-        }
-        tmp$ret$14 = tmp$ret$13;
-        break $l$block_13;
-      }
-      tmp$ret$15 = tmp$ret$14;
-      break $l$block_14;
-    }
-    flexWrap($this$style, tmp$ret$15);
+    flexWrap($this$style, tmp$ret$11);
   };
   _no_name_provided__223.prototype.invoke_20e8_k$ = function (p1) {
     this.invoke_k9hshx_k$((!(p1 == null) ? isInterface(p1, StyleBuilder) : false) ? p1 : THROW_CCE());
